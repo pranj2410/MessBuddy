@@ -1,38 +1,58 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  cursor: default;
+}
+
+.MessBuddy {
+  font-family: 'Century Gothic';
+  font-weight: 400;
+  font-size: 2.2rem;
+  text-align: center;
+  color: #000000;
+}
+
+.InputContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.InputField {
+  width: 220px;
+  padding: 0.5%;
+  margin-top: 1vh;
+  border: 1px solid #333333;
+  box-sizing: border-box;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.RegisterNow {
+  background: #BB0C24;
+  border-radius: 100px;
+  border: none;
+  margin-top: 3vh;
+  padding: .5rem;
+  width: 120px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.RegisterNow:hover {
+  cursor: pointer;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Message {
+  margin-top: 14vh;
+}
+.login{
+  color: red;
+  cursor: pointer;
+}
+.logo{
+  height: 30vh;
+  width: auto;
 }

@@ -1,0 +1,48 @@
+.ContainerMenu {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background: #F8F8F8;
+}
+
+.BackgroundHeader {
+    width: 414px;
+    height: 184px;
+
+    background: #FFFFFF;  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;  
+}
+
+.ProductCart {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 200px;
+    width: 324px;
+    height: 63px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 7px -4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;   
+}
+
+.OptOut {
+    width: 113px;
+    height: 41px;
+    background: #BB0C24;
+    box-shadow: 0px 2px 7px -4px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;    
+    color: #FFFFFF;
+    border: none;
+}
+
+.User {
+    height: 6vh;
+    width: auto;
+}

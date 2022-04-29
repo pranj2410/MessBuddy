@@ -1,8 +1,14 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import logo from '../messlogo.jpg';
 import './Register.css'
 
 function Register() {
+  let navigate = useNavigate();
+  const handleClick = () => {
+    navigate('/login');
+  }
+
   return (
     <>
       <img src={logo} className="logo"/>
@@ -16,7 +22,7 @@ function Register() {
         <input type ="password" className="InputField" placeholder='Password'></input>
         <button className="RegisterNow">Register Now</button>
       </form>
-      <p className = "Message">Already have an account?<span className="login">Log in</span></p>    
+      <p className = "Message">Already have an account?<span onClick={ handleClick } className="register"> Log in</span></p>    
     </>
   )
 }

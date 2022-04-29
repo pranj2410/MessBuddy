@@ -49,3 +49,13 @@
   height: 30vh;
   width: auto;
 }
+
+.register {
+  margin-top: 3vh;
+  width: 120px;
+  color: red;  
+}
+
+.register:hover {
+  cursor: pointer;
+}
